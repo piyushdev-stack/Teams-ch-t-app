@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 25px;
+}
+h1{
+    margin-bottom: -1px;
+}
+#logo{
+    position: absolute;
+    right: 675px;
+    top: 5px;
+}
+.container{
+    max-width: 850px;
+    border: 1px solid black;
+    margin: auto;
+    height: 75vh;
+    display: block;
+    overflow-y: auto;
+
+}
+.container .message{
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 2px 10px;
+    border-radius: 34px;
+    background: #7575753d;
+    border: none;
+    font-family: 'Tajawal', sans-serif;
+    max-width: 241px;
+    overflow-x: hidden;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+/* .center{
+    float
+} */
+.send{
+    text-align: center;
+    position: relative;
+}
+#messageInp{
+    width: 747px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 15px;
+    position: absolute;
+    left: 1px;
+    outline: none;
+}
+.btn{
+    border: 1px solid black;
+    margin-top: 5px;
+    position: absolute;
+    top: 0px;
+    right: -3px;
+    border-radius: 15px;
+}
